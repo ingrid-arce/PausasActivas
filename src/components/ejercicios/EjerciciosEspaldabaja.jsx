@@ -87,7 +87,14 @@ const EjerciciosEspaldaBaja = () => {
         <option value="10">Día 10</option>
 
       </select>
+    
+      <div className="boton-container">
+      
 
+      <button  className="boton-guardar"  onClick={() => window.open("https://forms.office.com/r/QYuY1ZbgAC")}>
+  Guardar Progreso
+</button>
+</div>
     </div>
   );
 };
