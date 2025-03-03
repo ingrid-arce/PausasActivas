@@ -1,0 +1,29 @@
+*{margin: 0;
+padding: 0;}
+.Header {
+    background-color: #8bc540; /* Color verde */
+    padding: 20px;
+   
+  }
+
+  .title2 {
+    color:white;
+    font-size: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 200vh;}
+  
+  
+  h1 {
+    margin-left: 10px;
+  }
+
+  @media (max-width:767px){
+    .Header{
+      padding: 1rem;
+    }
+
+    .title2{
+      font-size: 30px;
+    }
+  }
+  
