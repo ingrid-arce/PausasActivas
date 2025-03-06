@@ -64,7 +64,7 @@ const EjerciciosEspaldaBaja = () => {
   };
   return (
     <div className="ejercicios-container">
-      <h1>Ejercicios para espalda baja - Día {dia}</h1>
+      <h1>Ejercicios para espalda baja - {dia}</h1>
       <div className="ejercicios-list">
         {EjerciciosPorDia[dia].map((ejercicio, index) => (
           <div key={index}>
@@ -75,26 +75,24 @@ const EjerciciosEspaldaBaja = () => {
       </div>
 
       <select value={dia} onChange={handleDiaChange} className="dia-select">
-        <option value="1">Día 1</option>
-        <option value="2">Día 2</option>
-        <option value="3">Día 3</option>
-        <option value="4">Día 4</option>
-        <option value="5">Día 5</option>
-        <option value="6">Día 6</option>
-        <option value="7">Día 7</option>
-        <option value="8">Día 8</option>
-        <option value="9">Día 9</option>
-        <option value="10">Día 10</option>
+        <option value="1"> 1</option>
+        <option value="2"> 2</option>
+        <option value="3"> 3</option>
+        <option value="4"> 4</option>
+        <option value="5"> 5</option>
+        <option value="6"> 6</option>
+        <option value="7"> 7</option>
+        <option value="8"> 8</option>
+        <option value="9"> 9</option>
+        <option value="10"> 10</option>
 
       </select>
-    
-      <div className="boton-container">
-      
 
-      <button  className="boton-guardar"  onClick={() => window.open("https://forms.office.com/r/QYuY1ZbgAC")}>
-  Guardar Progreso
-</button>
-</div>
+      <div className="boton-container">
+        <button className="boton-guardar" onClick={() => window.open("https://forms.office.com/r/QYuY1ZbgAC")}>
+          Guardar Progreso
+        </button>
+      </div>
     </div>
   );
 };
